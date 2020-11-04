@@ -1,0 +1,60 @@
+<!DOCTYPE html>                                                                                                                                                                                  
+<html>
+    <!-- Created by 1KA4 -->
+<head>
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Caculator</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="calculator">
+                <div type="text" id="input" class="input"></div>
+
+                <div class="button">
+    
+                    <div class="secondControl">
+                        <div class="clearAll number free" onclick="noobAll()">CE</div>
+                        <div class="Clear number free" onclick="noob()">C</div>
+                        <div class="dzielinie number"  onclick="numberInInput(division)">/</div>
+                    </div>
+    
+                    <div class="threesControl">
+                        <div class="seven number" onclick="numberInInput(seven)">7</div>
+                        <div class="eight number" onclick="numberInInput(eight)">8</div>
+                        <div class="nine number" onclick="numberInInput(nine)">9</div>
+                        <div class="mnoz number" onclick="numberInInput(multiply)">*</div>
+                    </div>
+    
+                    <div class="fourControl">
+                        <div class="four number" onclick="numberInInput(four)">4</div>
+                        <div class="five number" onclick="numberInInput(five)">5</div>
+                        <div class="six number" onclick="numberInInput(six)">6</div>
+                        <div class="minus number" onclick="numberInInput(minus)">-</div>
+                    </div>
+    
+                    <div class="fiveControl">
+                        <div class="one number" onclick="numberInInput(one)">1</div>
+                        <div class="two number" onclick="numberInInput(two)">2</div>
+                        <div class="thri number" onclick="numberInInput(three)">3</div>
+                        <div class="plus number" onclick="numberInInput(plus)">+</div>
+                    </div>
+    
+                    <div class="sixControl">
+                        <div class="zero number" id="nol" onclick="numberInInput(nol)">0</div>
+                        <div class="dot number" id="dot" onclick="numberInInput(dot)">.</div>
+                        <div class="rowno number free-rowno" id="rowno" onclick="liczenie()">=</div>
+                    </div>
+                </div>
+        </div>
+    </div>
+        <script src="js/script.js"></script>
+</body>
+</html>
